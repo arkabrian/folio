@@ -15,7 +15,7 @@ Reading multiple books at once is great until it isn't. When you DNF a book mid-
 ---
 
 ## Pipeline
-
+![RAG Pipeline Diagram](folio_rag_pipeline.svg)
 ```
 PDF upload → Google Drive → n8n workflow → Chapter-aware chunker
     → OpenAI embeddings → Vector store → Cohere reranker → n8n chat
